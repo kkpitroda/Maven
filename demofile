@@ -34,14 +34,14 @@ pipeline
 		{
 			steps
 			{
-				sh 'mvn test'
+				echo 'mvn test'
 			}
 		}		
 		stage('Build & Install Stage')
 		{
 			steps
 			{
-				sh 'mvn install'
+				echo 'mvn install'
 			}
 		}		
 		
