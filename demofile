@@ -3,7 +3,7 @@ pipeline
 	agent any
 	tools
 	{
-		maven 'MAVEN_HOME'
+		echo 'MAVEN_HOME'
 	}
 	
 	stages
